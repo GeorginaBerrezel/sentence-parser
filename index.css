@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex; /*1*/
+    flex-direction: column;/*2 q direction*/
+    /*comportement des enfants*/
+    /* justify-content : direction ROW alignement sur l'axe honrizontale (center, espacer...)*/
+    /* justify-content : direction COLUMN alignement sur l'axe verticale (center, espacer...)*/
+    justify-content: left;
+    /* align-items : direction ROW alignement sur l'axe verticale (center, espacer...)*/
+    /* align-items : direction COLUMN alignement sur l'axe horizontale (center, espacer...)*/
+    width: 70vw;
+    margin: 3rem auto 0 auto;
+}
+
+.input_content {
+    display: flex;
+}
+
+.toto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
